@@ -14,7 +14,7 @@
                       image=ami-00068cd7555f543d5
                       wait=true 
                       region=us-east-1
-                      keypair=Venky-AWS.pem
+                      keypair=Venky-AWS
                       count=1
         register: ec2
       - name: Touch a host file
